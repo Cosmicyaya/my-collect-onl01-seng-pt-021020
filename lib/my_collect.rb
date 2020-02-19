@@ -1,14 +1,4 @@
-students = ["Rebecca Chambers","Chris Redfield","Albet Wesker"]
-
-
-def my_collect(array)
-  i = 0
-  name_collectiion = []
-  while i < array.length
-  name_collection.push yield
-  (arry[i])
-  i += 1
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(array) do |name|
+  name.split(" ").first
 end
-name_collectiion
-end
-
